@@ -27,4 +27,4 @@ while True:
     elif yosh >=18 and yosh < 65:
         print("10000 so'm")
     else:
-        print("Bepul👌")
+        print("Bepul👌👌👌")
