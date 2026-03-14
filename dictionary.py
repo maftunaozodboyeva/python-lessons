@@ -14,8 +14,8 @@ print(car)
 print(type(car)) # <class 'dict'>
 
 student = {
-    'fullname': 'odimo qiziqmo 😁😎',
-    'age': 'yoshimodom qiziqmo uylanb bogonmon',
+    'fullname': 'Jon Doe',
+    'age': '20',
     'course': 3,
     'favourite_books': ["Atomic habits", "O'tgan kunlar", "Dunyoning ishlari"],
     'is_completed': False,
