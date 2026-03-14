@@ -50,3 +50,4 @@ if python_dictionary.get(text) == None:
     print("Bunday kalit so'z mavjud emas.")
 else:
     print(python_dictionary.get(text))
+
