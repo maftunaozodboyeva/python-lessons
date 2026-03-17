@@ -51,3 +51,32 @@ if python_dictionary.get(text) == None:
 else:
     print(python_dictionary.get(text))
 
+# 
+talaba_0 = {
+    'ism':'alijon',
+    'familiya':'shamshiyev',
+    'yosh':22,
+    'fakultet':'matematika',
+    'kurs':4
+    }
+
+talaba_1 = {
+    'ism':'hasan', 
+    'familiya':'karimov',
+    'yosh':23,
+    'fakultet':'fizika',
+    'kurs':3
+}
+talaba_2 = {
+    'ism':'husan',
+    'familiya':'sanatov',
+    'yosh':24,
+    'fakultet':'kimyo',
+    'kurs':2
+}
+talabalar = [talaba_0, talaba_1, talaba_2]
+for talaba in talabalar:
+    print(f"{talaba['ism'].title()} {talaba['familiya'].title()} "
+          f"{talaba['yosh']} yoshda, "
+          f"{talaba['fakultet']} fakulteti, "
+          f"{talaba['kurs']}-kurs")
