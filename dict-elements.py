@@ -81,3 +81,46 @@ print('Foydalanuvchilar quyidagi telefonlarni ishlatishadi: ')
 for tel in telefonlar.values():
     print(tel)
 
+# vazifa
+# 1-mashq
+lugat = {
+    "array": "Bir turdagi elementlardan tashkil topgan tartibli to‘plam",
+    "boolean": "True yoki False qiymatlarini oluvchi ma'lumot turi",
+    "class": "Obyektlar yaratish uchun shablon",
+    "dictionary": "Kalit-qiymat juftliklaridan iborat ma'lumot tuzilmasi",
+    "function": "Qayta ishlatiladigan kod bloki",
+    "integer": "Butun sonlar turi",
+    "list": "Tartibli va o‘zgaruvchan elementlar ro‘yxati",
+    "loop": "Kod blokini bir necha marta bajarish uchun ishlatiladi",
+    "string": "Matnli ma'lumot turi",
+    "tuple": "O‘zgarmas (immutable) tartibli to‘plam"
+}
+
+# Lug'atni alifbo tartibida chiqaramiz
+for kalit in sorted(lugat.keys()):
+    print(f"{kalit.title()} -> {lugat[kalit]}")
+
+# 2-mashq
+# Davlatlar va poytaxtlar lug'ati
+davlatlar = {
+    "O'zbekiston": "Toshkent",
+    "AQSh": "Vashington",
+    "Fransiya": "Parij",
+    "Germaniya": "Berlin",
+    "Yaponiya": "Tokio",
+    "Italiya": "Rim",
+    "Ispaniya": "Madrid",
+    "Angliya": "London",
+    "Xitoy": "Pekin",
+    "Rossiya": "Moskva"
+}
+
+# Davlatlarni alifbo tartibida chiqarish
+print("Davlatlar:")
+for davlat in sorted(davlatlar.keys()):
+    print(davlat)
+
+# Poytaxtlarni alifbo tartibida chiqarish
+print("\nPoytaxtlar:")
+for poytaxt in sorted(davlatlar.values()):
+    print(poytaxt)
