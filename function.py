@@ -30,3 +30,4 @@ calculate_age(2010, "Maftuna")
 
 def yosh_hisobla(tugilgan_yil, joriy_yil=2026):
     print(f"Siz {joriy_yil - tugilgan_yil} yoshdasiz.")
+    
