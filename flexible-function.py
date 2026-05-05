@@ -41,12 +41,6 @@ print(kopaytma(2, 3, 4))
 
 # 2.
 def talaba_malumoti(ism, familiya, **kwargs):
-    talaba = {
-        "ism": Maftuna,
-        "familiya": Ozodboyeva
-    }
-
-    for kalit, qiymat in kwargs.items():
-        talaba[kalit] = qiymat
-    
-    return talaba
+    data['name'] = name
+    data['surname'] = surname
+    return DeprecationWarnin
